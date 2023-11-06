@@ -98,7 +98,7 @@
     .page2-main-content {
         width: 786px;
         border-radius: 24px;
-        background: #918585;
+        background: #F8F8F8;
         box-shadow: 0px 4px 18px 0px rgba(194, 194, 194, 0.30);
         flex: 50%;
         margin-left: 44px;
@@ -155,56 +155,136 @@ font-style: normal;
 font-weight: 500;
 line-height: 23px; /* 191.667% */
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.all-headings {
+  margin-left: 40px;
+  margin-top: 24px;
+}
+.for-rent {
+  color: #000;
+font-family: Poppins;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.adress {
+  color: #000;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.about-house {
+  color: #000;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 23px; /* 164.286% */
+width: 611px;
+margin-bottom: 40px;
+}
+.text-between-lines {
+  display: inline;
+  margin-right: 24px;
+  color: #000;
+font-family: Poppins;
+font-size: 14px;
+font-weight: 500;
+line-height: 23px; /* 164.286% */
+}
+.text-between-lines-div {
+  margin-left: 40px;
+}
+.about-apartament {
+  margin-left: 40px;
+  padding-top: px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.about-apartament-1,
+.about-apartament-2{
+  display: flex;
+  flex-direction: column;
+  gap:4px;
+}
+.about-apartament-2 {
+  margin-left: 132px;
+  margin-right: 101px;
+}
+.about-apartament span {
+  color: #000;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 23px; /* 191.667% */
+}
+.about-apartament p {
+  color: #000;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 23px; /* 164.286% */
+padding-top: 4px;
+}
+.price {
+  margin-top: 60px;
+  margin-left: -390px;
+}
+.for-price span {
+  color: #29B24E;
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 600;
+}
+.for-price p {
+  color: #000;
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+}
+.buttons {
+  margin-top: -34px;
+}
+.sent-message {
+  height:  47px;
+  display: inline-flex;
+padding: 13px 26px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 12px;
+border: 1px solid #29B24E;
+color: #29B24E;
+}
+.for-call {
+  display: inline-flex;
+width: 80px;
+height: 47px;
+padding: 13px 26px;
+align-items: flex-start;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 12px;
+border: 1px solid #29B24E;
+background: #29B24E;
+color: #FFF;
+}
+.similar-ads {
+  color: #000;
+font-family: Poppins;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+max-width: 125px;
+margin-top: 72px;
+margin-bottom: 24px;
+margin-left: 140px;
+}
 
   .flex-container {
     display: flex;
@@ -399,7 +479,7 @@ line-height: 23px; /* 191.667% */
   .flex-container-for-footer-web {
     display: flex;
     flex-direction: row;
-    gap: 48px;
+    gap:50px;
     margin-left: 40px;
     padding-top: -32px;
   }
